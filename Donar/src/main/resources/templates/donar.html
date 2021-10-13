@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Blood Management System</title>
+<link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<h1>List of Donar</h1>
+	</div>
+	<table class="table table-striped table-bordered">
+		<thead class="table-dark">
+		<tr>
+		<th>Donar Id</th>
+		<th>Donar Name</th>
+		<th>Gender</th>
+		<th>Age</th>
+		<th>Date of Birth</th>
+		<th>Blood Group</th>
+		<th>Last Blood donation date</th>
+		<th>Email Id</th>
+		<th>Phone No.</th>
+		<th>State</th>
+		<th>city</th>
+		<th>Action</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr th:each ="donar: ${donar}">
+			<td th:text ="${donar.donarid}"></td>
+			<td th:text ="${donar.donarname}"></td>
+			<td th:text ="${donar.gender}"></td>
+			<td th:text ="${donar.age}"></td>
+			<td th:text ="${donar.dateofbirth}"></td>
+			<td th:text ="${donar.bloodgroup}"></td>
+			<td th:text ="${donar.lastblooddonationdate}"></td>
+			<td th:text ="${donar.emailid}"></td>
+			<td th:text ="${donar.phoneno}"></td>
+			<td th:text ="${donar.state}"></td>
+			<td th:text ="${donar.city}"></td>
+		</tr>
+		</tbody>
+	</table>
+</div>
+</body>
+</html>

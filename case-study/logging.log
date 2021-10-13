@@ -1,0 +1,16 @@
+2021-10-03 18:48:01 INFO  App:21 - main method started
+2021-10-03 19:34:06 INFO  App:21 - main method started
+2021-10-03 19:34:07 WARN  DB_Handler:132 - couldn't create table because it already exists
+2021-10-03 19:34:48 WARN  DB_Handler:96 - No one selected with matching birthday
+2021-10-03 19:35:02 INFO  DB_Handler:150 - Row(s) were selected from the database
+2021-10-03 19:35:25 INFO  DB_Handler:51 - one employee fetched from the database
+2021-10-03 19:35:25 INFO  Employee:27 - One employee object created
+2021-10-03 19:35:50 INFO  DB_Handler:51 - one employee fetched from the database
+2021-10-03 19:35:50 INFO  Employee:27 - One employee object created
+2021-10-03 19:36:16 INFO  Employee:48 - Address of an Employee object changed
+2021-10-03 19:36:23 INFO  DB_Handler:73 - Row(s) were affected by the update query
+2021-10-03 19:36:33 INFO  Employee:27 - One employee object created
+2021-10-03 19:36:33 INFO  Employee:27 - One employee object created
+2021-10-03 19:36:33 INFO  Employee:27 - One employee object created
+2021-10-03 19:36:33 INFO  Employee:27 - One employee object created
+2021-10-03 19:36:33 INFO  Employee:27 - One employee object created

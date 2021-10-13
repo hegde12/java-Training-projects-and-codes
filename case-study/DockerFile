@@ -1,0 +1,6 @@
+
+FROM java:8ARG 
+JAR_FILE=target/
+WORKDIR /opt/appCOPY ${JAR_FILE} app.jar
+ENTRYPOINT ["java","-jar","app.jar"]
+
